@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/portrait"
+        style="@style/buttonStyle"
+        android:layout_width="407dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b0x0"
+                style="@style/buttonStyle"
+                android:layout_width="104dp"
+                android:layout_height="match_parent"
+                android:onClick="operation"
+                android:text="AC" />
+
+            <Button
+                android:id="@+id/b1x0"
+                style="@style/buttonStyle"
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:onClick="operation"
+                android:text="+/-" />
+
+            <Button
+                android:id="@+id/b2x0"
+                style="@style/buttonStyle"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:onClick="operation"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/b3x0"
+                style="@style/buttonStyle"
+                android:onClick="operation"
+                android:text="/" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b0x1"
+                style="@style/buttonStyle"
+                android:onClick="numbers"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/b1x1"
+                style="@style/buttonStyle"
+                android:onClick="numbers"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/b2x1"
+                style="@style/buttonStyle"
+                android:onClick="numbers"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/b3x1"
+                style="@style/buttonStyle"
+                android:onClick="operation"
+                android:text="x" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b0x2"
+                style="@style/buttonStyle"
+                android:onClick="numbers"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/b1x2"
+                style="@style/buttonStyle"
+                android:onClick="numbers"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/b2x2"
+                style="@style/buttonStyle"
+                android:onClick="numbers"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/b3x2"
+                style="@style/buttonStyle"
+                android:onClick="operation"
+                android:text="-" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b0x3"
+                style="@style/buttonStyle"
+                android:onClick="numbers"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/b1x3"
+                style="@style/buttonStyle"
+                android:onClick="numbers"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/b2x3"
+                style="@style/buttonStyle"
+                android:onClick="numbers"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/b3x3"
+                style="@style/buttonStyle"
+                android:onClick="operation"
+                android:text="+" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b0x4"
+                style="@style/buttonStyle"
+                android:onClick="numbers"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/b1x4"
+                style="@style/buttonStyle"
+                android:clickable="false" />
+
+            <Button
+                android:id="@+id/b2x4"
+                style="@style/buttonStyle"
+                android:onClick="operation"
+                android:text="," />
+
+            <Button
+                android:id="@+id/b3x4"
+                style="@style/buttonStyle"
+                android:onClick="operation"
+                android:text="=" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:fontFamily="@font/times"
+        android:layout_width="385dp"
+        android:layout_height="210dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/portrait"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
