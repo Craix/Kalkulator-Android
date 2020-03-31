@@ -35,7 +35,7 @@
                 android:layout_width="109dp"
                 android:layout_height="match_parent"
                 android:onClick="operation"
-                android:text="+/-" />
+                android:text="@string/d" />
 
             <Button
                 android:id="@+id/b2x0"
@@ -49,6 +49,7 @@
                 android:id="@+id/b3x0"
                 style="@style/buttonStyle"
                 android:onClick="operation"
+                android:background="@color/colorAccent"
                 android:text="/" />
 
         </TableRow>
@@ -79,6 +80,7 @@
                 android:id="@+id/b3x1"
                 style="@style/buttonStyle"
                 android:onClick="operation"
+                android:background="@color/colorAccent"
                 android:text="x" />
 
         </TableRow>
@@ -109,6 +111,7 @@
                 android:id="@+id/b3x2"
                 style="@style/buttonStyle"
                 android:onClick="operation"
+                android:background="@color/colorAccent"
                 android:text="-" />
 
         </TableRow>
@@ -139,6 +142,7 @@
                 android:id="@+id/b3x3"
                 style="@style/buttonStyle"
                 android:onClick="operation"
+                android:background="@color/colorAccent"
                 android:text="+" />
 
         </TableRow>
@@ -168,6 +172,7 @@
                 android:id="@+id/b3x4"
                 style="@style/buttonStyle"
                 android:onClick="operation"
+                android:background="@color/colorAccent"
                 android:text="=" />
 
 

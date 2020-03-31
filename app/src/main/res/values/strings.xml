@@ -4,4 +4,5 @@
     <string name="s"> \u02B8\u221A(x)</string>
     <string name="p"> x\u02B8</string>
     <string name="l"> log\u2093(y)</string>
+    <string name="d">\u003C\u003D</string>
 </resources>

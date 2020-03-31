@@ -152,14 +152,10 @@ public class MainActivity extends AppCompatActivity {
                 s1 = s2 = "";
                 break;
             }
-            case(R.id.b2x4):
-            {
-                if(!s1.equals(""))
-                {
+            case(R.id.b2x4): {
+                if (!s1.equals("")) {
                     s2 = s2 + ".";
-                }
-                else
-                {
+                } else {
                     s0 = s0 + ".";
                 }
 
@@ -167,6 +163,18 @@ public class MainActivity extends AppCompatActivity {
 
                 //przecinek
                 break;
+
+            }
+            case(R.id.b1x0): {
+                if(!s1.equals(""))
+                {
+                    s2 = s2.substring(0, s2.length() - 1);
+                }
+                else {
+                    s0 = s0.substring(0, s0.length() - 1);
+                }
+
+                output.setText(s0+s1+s2);
             }
         }
     }

@@ -50,6 +50,7 @@
                 style="@style/buttonStyle"
                 android:layout_width="138dp"
                 android:layout_height="match_parent"
+                android:background="@color/colorAccent"
                 android:onClick="operation"
                 android:text="/" />
 
@@ -90,6 +91,7 @@
             <Button
                 android:id="@+id/b3x1"
                 style="@style/buttonStyle"
+                android:background="@color/colorAccent"
                 android:onClick="operation"
                 android:text="x" />
 
@@ -129,6 +131,7 @@
                 android:id="@+id/b3x2"
                 style="@style/buttonStyle"
                 android:onClick="operation"
+                android:background="@color/colorAccent"
                 android:text="-" />
 
             <Button
@@ -167,6 +170,7 @@
                 android:id="@+id/b3x3"
                 style="@style/buttonStyle"
                 android:onClick="operation"
+                android:background="@color/colorAccent"
                 android:text="+" />
 
             <Button
@@ -204,6 +208,7 @@
                 android:id="@+id/b3x4"
                 style="@style/buttonStyle"
                 android:onClick="operation"
+                android:background="@color/colorAccent"
                 android:text="=" />
 
             <Button
